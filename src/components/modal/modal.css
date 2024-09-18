@@ -32,6 +32,10 @@
     border-radius: 5px;
 }
 
+.close__button:hover {
+    background-color: rgb(239, 33, 33);
+}
+
 .modal__body {
     margin-top: 20px;
     margin-bottom: 20px;
