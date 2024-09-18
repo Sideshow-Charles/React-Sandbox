@@ -17,8 +17,8 @@ const App = () => {
     <div className="App">
       {/* <Counter /> */}
       <button onClick={openModal}>Open Modal</button>
-      <Modal isOpen={isModalOpen} onClose={closeModal} title="Pop Up!"
-        children="This is some content inside the modal!
+      <Modal isOpen={isModalOpen} onClose={closeModal} header="Pop Up!"
+        body="This is some content inside the modal!
         I'm writing a lot more casue I want to be sure this thing works fine yunno!">
       </Modal>
     </div>
