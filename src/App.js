@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+// import './App.css';
 // import Counter from "../src/components/Counter.tsx";
 import Modal from "../src/components/modal/modal.tsx";
 
@@ -17,8 +17,9 @@ const App = () => {
     <div className="App">
       {/* <Counter /> */}
       <button onClick={openModal}>Open Modal</button>
-      <Modal isOpen={isModalOpen} onClose={closeModal} title="Example Modal">
-        <p>This is some content inside the modal!</p>
+      <Modal isOpen={isModalOpen} onClose={closeModal} title="Pop Up!"
+        children="This is some content inside the modal!
+        I'm writing a lot more casue I want to be sure this thing works fine yunno!">
       </Modal>
     </div>
   );

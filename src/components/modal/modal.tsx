@@ -16,10 +16,12 @@ const Modal: React.FC<modalProps> = ({ isOpen, onClose, title, children }) => {
             <div className="modal">
                 <div className="modal__header">
                     <h2 className="modal__title">{title}</h2>
-                    <button onClick={onClose} className="close__button">X</button>
                 </div>
                 <div className="modal__body">
-                    <p className="modal__content">{children}</p>
+                    <div className="modal__content">{children}</div>
+                </div>
+                <div className="modal__footer">
+                    <button onClick={onClose} className="close__button">Close</button>
                 </div>
             </div>
         </div>
