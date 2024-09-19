@@ -13,7 +13,7 @@
     padding: 15px;
     border-radius: 10px;
     width: 400px;
-    max-width: 90%;
+    /* max-width: 90%; */
 }
 
 .modal__header {
